@@ -20,7 +20,7 @@ cc_library_static {
     srcs: [
         "init_wasabi.cpp"
     ],
-    shared_libs: [
+    whole_static_libs: [
         "libbase"
     ],
     include_dirs: [
